@@ -19,6 +19,18 @@
     "description": {
       "type": "richtext"
     },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
     "categories": {
       "via": "restaurants",
       "collection": "category"
